@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.custom-carousel-image{
+    height: 694px;
+    width: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    filter:brightness(0.7);
+}
+
+.info-event{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: end;
+    align-items: end;
+    width: 50%;
+    height: 75%;
+    top: 30px;
+    right: 40px;
+    z-index: 1;
+}
+
+.font-s{
+    font-size: 0.7em;
+}
+
+.text-bg-c{
+    background-color: #1D9FB7;
+}
+
+.card-padding-bottom{
+    padding-bottom: 20px;
+}
+
+.textarea-custom-height{
+    outline: none;
+    resize: none;
+}
+
+.btn-outline-light{
+    margin-right: 15px;
+}
+
+.exp{
+    font-size: 0.6em;
+    vertical-align: super;
+}
+
+.subrayado{
+    border-bottom: 2px dotted black;
+}
+
+.bg-degrade{
+    background: linear-gradient(90deg,#1c465e 0%, #336da2 110%);
+}
+
+@media (max-width: 760px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 0 !important;
+    }
+}
